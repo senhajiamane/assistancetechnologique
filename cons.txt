@@ -1,0 +1,67 @@
+il faut ajouter un fill arian
+responsive design
+le code qui est au menu.php il faut ajouter une fonction include dans tout les fichier.html pour mener directement au fichier menu.php donc moi j'ai fait copier coller du code du menu dans les fichier html lui il voulait juste la fonction include
+
+pour contactez nous il voulait un formulaire meme si il est vide
+
+
+
+
+Rédiger un CR
+
+2) Valider les contrastes de vos pages web (A, AA, AAA) :
+
+https://color.a11y.com/?wc3
+
+3)Créer un css pour imprimer le contenu texte de vos pages :
+
+ a)passer le fond de page en blanc, et les textes de contenu (+ titres et liens) en noir ;
+
+ b)choisir une famille de police serif ;
+
+ c)supprimer les éléments devenus inutiles (la bannière de l'entête, les bordures de la page, le menu général, le pied de page, les publicités) ;
+
+ d) adapter la largeur du contenu restant à la page ;
+
+ e) modifier les unités em, px en pt
+
+Le document imprimé contiendra donc les titres, les textes et les images estimées comme complément indispensable à la bonne compréhension des textes.
+
+4) Créer 3 CSS alternatives : (défaut, confort de lecture et version minimale)
+
+Syntaxe: 
+
+<link rel="stylesheet" type="text/css" href="screen.css" media="screen"  title="Normal" />
+
+<link rel="stylesheet" type="text/css" href="print.css" media="print" title="Normal" />
+
+<link rel="alternate stylesheet" type="text/css" href="screen.css" media="screen" title="Fond noir" />
+
+<link rel="alternate stylesheet" type="text/css" href="minimal.css" media="screen" title="Minimal" />
+
+5) Ajouter une fonction Zoom (Php ou Javascript)
+
+https://www.sanwebcorner.com/2014/05/zoomin-and-zoomout-text-using-javascript.html
+
+6) Ajouter une barre de recherche rapide
+
+EXEMPLE : http://www.gratos.be/javascript/moteur.htm (en javascript)
+
+http://jsbin.com/kocow/4/edit?html,css,js,output
+
+Si ça marche pas, ajouter un moteur de recherche intégrès , voici ici les étpaes:
+
+http://www.creation-site-internet.ca/article/inserer-la-barre-de-recherche-google-sur-son-site-ID-68.php
+
+7) Tester vos pages avec LYNX et NVDIA
+
+8) Améliorer le temps de navigation
+
+9) maquette fonctionnelle finale de votre site
+
+10) conclure 
+
+Lien utile : 
+
+http://www.w3.org/WAI/RC/tools/complete
+

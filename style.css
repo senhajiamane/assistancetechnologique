@@ -1,0 +1,170 @@
+/* Styles pour la mise en page */
+
+#accessibilite nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #noon; /* Il semble y avoir une faute de frappe ici, je suppose que c'est une couleur valide comme #000000 (noir) */
+  color: black;
+  padding: noon; /* Il semble y avoir une faute de frappe ici, je suppose que c'est une valeur de rembourrage valide comme 10px */
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px;
+}
+
+/* Styles pour les contrastes */
+.high-contrast1 {
+  color: blue;
+  background-color: yellow;
+}
+
+.high-contrast2 {
+  color: yellow;
+  background-color: #B0C4DE;
+}
+
+.high-contrast3 {
+  color: black;
+  background-color: white;
+}
+
+.high-contrast4 {
+  color: white;
+  background-color: black;
+}
+
+/* Styles pour le menu d'accessibilité */
+nav {
+  background-color: #B0C4DE;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.retour-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Styles pour le menu d'accessibilité */
+#accessibility-menu {
+  display: flex;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#accessibility-menu button {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  display: block;
+  width: 150px;
+  text-align: left;
+}
+
+/* Styles pour les options de contraste dans le menu d'accessibilité */
+#accessibility-menu .menu-options {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#accessibility-menu .menu-options button {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+#accessibility-menu .menu-options .contrast-options {
+  display: block;
+}
+
+#image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles par défaut pour les écrans de taille normale */
+body {
+  font-size: 16px;
+}
+
+/* Styles spécifiques pour les écrans de moins de 600 pixels de large */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles pour les paragraphes */
+p {
+  margin-bottom: 15px; /* Ajuste l'espacement entre les paragraphes */
+  text-align: justify; /* Justifie le texte dans les paragraphes */
+}
